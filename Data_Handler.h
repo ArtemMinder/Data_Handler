@@ -9,8 +9,6 @@
 
 class DataHandler {
  public:
-std::string fileName ='fileName';
-
 void read();
 void data();
  private:

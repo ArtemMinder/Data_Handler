@@ -8,7 +8,7 @@ void DataHandler::read() {
   }
 }
 
-void  DataHandler::data(std::string& name) {
+void  DataHandler::data(std::string const& name) {
 std::ifstream file(name);
 if (file.is_open()) {
   while (file.good()) {

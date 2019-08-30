@@ -8,9 +8,9 @@
 #include <iostream>
 
 class DataHandler {
- public:
-void read();
-void data(std::string const& name);
- private:
-std::vector<std::string>  info;
+	public:
+		void read();
+		void data(std::string const& name);
+	private:
+		std::vector<std::string>  info;
 };

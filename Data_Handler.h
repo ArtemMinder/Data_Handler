@@ -10,7 +10,7 @@
 class DataHandler {
  public:
 void read();
-void data();
+void data(std::string const& name);
  private:
 std::vector<std::string>  info;
 };

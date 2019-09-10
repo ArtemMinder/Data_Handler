@@ -8,6 +8,8 @@ int main(int argc, char** argv) {
 		DataHandler o1;
 		o1.data(name);
 		o1.read();
+		o1.head();
+		o1.tail();
 	} else {
 		std::cout << "Enter the name of a single file as parameter\n";
 	}

@@ -1,6 +1,7 @@
   // Copyright 2019 <Artem>
 
 #include "Data_Handler.h"
+#include <iostream>
 
 int main(int argc, char** argv) {
 	if (argc > 1 && argc < 3) {

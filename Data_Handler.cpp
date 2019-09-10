@@ -2,10 +2,11 @@
 
 #include "Data_Handler.h"
 #include <fstream>
+#include <iostream>
 
 void DataHandler::read() {
 	for (int i = 0; i < info.size(); i++) {
-		std::cout << info[i] <<std::endl;
+		std::cout << info[i] << std::endl;
 	}
 }
 
